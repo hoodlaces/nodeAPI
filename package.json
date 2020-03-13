@@ -1,0 +1,19 @@
+{
+  "name": "Possue",
+  "version": "1.0.0",
+  "description": "All Essays From the CA Bar Exam",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Steven Finley",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
